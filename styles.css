@@ -803,6 +803,7 @@ button {
    Agregar: color: var(--color-text-primary);
    Los selectores específicos como --github necesitan definir su propio color */
 .social__icon--github {
+    color: var(--color-text-primary);
     background: rgba(255, 255, 255, 0.1);
 }
 
