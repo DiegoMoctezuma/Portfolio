@@ -231,6 +231,7 @@ button {
     border: none;
     /* ERROR 5: El botón primario no tiene profundidad ni efecto de brillo
        PISTA: Falta la propiedad que agrega sombras al elemento */
+    box-shadow: var(--shadow-glow);
 }
 
 .btn--primary:hover {
